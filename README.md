@@ -28,7 +28,34 @@ The analysis of the election shows that:
   - Diana DeGette, who received 73.8% of the vote and 272,892 votes
 
 ## Challenge Overview
+**Overview of Election Audit**
+
+The purpose of the election audit analysis was to tally the votes from each county to determine which county had the highest voter turnout. 
+
+**Election-Audit Results**
+
+- Total votes cast: 369,711
+- Total votes per county: 
+  - Jefferson: 10.5% (388,855)
+  - Denver: 82.8% (306,055)
+  - Arapahoe: 6.7% (24,801)
+- Largest County Turnout: Denver
+- Total votes per candidate: 
+  - Stockham: 23% (85,213)
+  - DeGette: 73.8% (272,892)
+  - Doane: 3.1% (11,606)
+- Winner: Diana DeGette (73.8%, 272,892)
+
+A key piece of the code is the following: 
+<img width="499" alt="Screenshot 2021-11-08 203523" src="https://user-images.githubusercontent.com/92737670/140845646-3f50e1c2-f04c-42c4-adcf-c440ad0267aa.png">
 
 
 ## Challenge Summary
+**Election-Audit Summary**
 
+This script can be used in the same way to count the votes in other elections, but can also be easily modified to address different analysis needs.
+
+One modification would be counting the votes for each candidate in each county.
+
+
+Another modification would be printing who the winner in each county is.
